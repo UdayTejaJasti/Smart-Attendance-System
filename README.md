@@ -22,6 +22,11 @@ Android-based attendance system using GPS and security features.
 - Kotlin
 - Firebase Firestore
 - Android Studio
+## 📸 Screenshots
+![AdminLogin](image1.png)
+![AdminHome](image2.png)
+![StudentLogin](image3.png)
+![StudentHome](image4.png)
 
 ## 👨‍💻 Developer
 J. UdayTeja
