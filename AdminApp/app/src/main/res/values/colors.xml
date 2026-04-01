@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources><color name="primaryBlue">#1E3A8A</color>
+    <color name="primaryLight">#3B82F6</color>
+    <color name="backgroundLight">#F3F6FA</color>
+    <color name="cardWhite">#FFFFFF</color>
+    <color name="successGreen">#22C55E</color>
+    <color name="warningRed">#EF4444</color>
+
+</resources>
