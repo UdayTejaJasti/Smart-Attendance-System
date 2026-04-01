@@ -1,0 +1,31 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.adminattendanceapp">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:label="AdminAttendanceApp"
+        android:theme="@style/Theme.Material3.DayNight.NoActionBar">
+
+        <activity android:name=".SubjectDashboardActivity"/>
+        <activity android:name=".SubjectListActivity"/>
+        <activity android:name=".RegisterSubjectActivity"/>
+        <activity android:name=".RegisterStudentActivity"/>
+        <activity android:name=".SetLocationActivity"/>
+        <activity android:name=".SavedLocationsActivity"/>
+        <activity android:name=".AbsenteesList"/>
+
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+
+        </activity>
+
+    </application>
+</manifest>

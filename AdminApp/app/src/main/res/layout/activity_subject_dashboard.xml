@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F7FB">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:text="Subject Dashboard"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <!-- Statistics Cards -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <TextView
+                android:id="@+id/txtTotal"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="80dp"
+                android:text="Total\n0"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:background="#E0F2FE"/>
+
+            <TextView
+                android:id="@+id/txtPresent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="80dp"
+                android:text="Present\n0"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:background="#DCFCE7"/>
+
+            <TextView
+                android:id="@+id/txtAbsent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="80dp"
+                android:text="Absent\n0"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:background="#FEE2E2"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnRegisterStudents"
+            android:text="Register Students"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"/>
+
+        <Button
+            android:id="@+id/btnSetLocation"
+            android:text="Register Location"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"/>
+
+        <Button
+            android:id="@+id/btnSavedLocations"
+            android:text="Saved Locations"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"/>
+
+        <Button
+            android:id="@+id/btnStartAttendance"
+            android:text="Start Attendance"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"/>
+
+        <Button
+            android:id="@+id/btnStopAttendance"
+            android:text="Stop Attendance"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"/>
+
+        <Button
+            android:id="@+id/btnAbsentees"
+            android:text="Absentees List"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"/>
+
+        <Button
+            android:id="@+id/btnLogout"
+            android:text="Logout"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"/>
+
+    </LinearLayout>
+
+</ScrollView>
