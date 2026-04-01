@@ -1,21 +1,27 @@
-# Smart Attendance System
+# 📱 Smart Attendance System
 
-This project contains two Android apps:
+Android-based attendance system using GPS and security features.
 
-## Admin App
-- Set classroom location
-- Start/Stop attendance
+## 👨‍🏫 Admin App
+- Create attendance sessions
+- Set geofence location
 - Manage students
 
-## Student App
-- Login with device lock
+## 🎓 Student App
+- Login with reg no & password
 - Biometric authentication
-- GPS-based attendance
+- Attendance only inside class location
 
-## Features
-- One student one device
-- Multi-point geofencing
-- Secure attendance system
+## 🔐 Features
+- One student → one device
+- Multi-subject support
+- Strong geofencing
+- Firebase integration
 
-Developer:
+## 🛠️ Tech Used
+- Kotlin
+- Firebase Firestore
+- Android Studio
+
+## 👨‍💻 Developer
 J. UdayTeja
